@@ -30,9 +30,9 @@
 
 @font-face {
   font-family: Manrope;
-  src: url(/fonts/Manrope-Medium.woff2) format('woff2'),
-    url(/fonts/Manrope-Medium.woff) format('woff'),
-    url(/fonts/Manrope-Medium.eot) format('eot');
+  src: url(fonts/Manrope-Medium.woff2) format('woff2'),
+    url(fonts/Manrope-Medium.woff) format('woff'),
+    url(fonts/Manrope-Medium.eot) format('eot');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
