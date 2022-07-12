@@ -425,7 +425,7 @@ html, body {
 
 
 .main__service-background {
-  background: url("../img/service1.jpg") left 0 / 50% auto no-repeat, url("../img/service2.jpg") right 0 / 50% auto no-repeat;
+  background: url("/img/service1.jpg") left 0 / 50% 502px no-repeat, url("/img/service2.jpg") right 0 / 50% 502px no-repeat;
   width: 100%;
   height: 502px;
 }
