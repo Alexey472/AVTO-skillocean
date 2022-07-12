@@ -1,4 +1,3 @@
-
 html, body {
   font-family: Manrope, sans-serif;
   color: #1E1B1B;
@@ -26,7 +25,7 @@ html, body {
   background-color: #333;
 }
 
-.jsbtn {
+.btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -36,7 +35,7 @@ html, body {
   padding: 15px;
 }
 
-.jsbtn:hover {
+.btn:hover {
   background: linear-gradient(138.85deg, #FFFFFF -38.72%, #FFFFFF 153.95%);
   border: 12px solid rgba(225, 225, 225, 0.43);
   box-shadow: 0px 28px 118px rgba(109, 108, 115, 0.12);
@@ -176,7 +175,7 @@ html, body {
   top: 50%;
   left: 0;
   transform: translateY(-50%);
-  background: url(../img/icons/Play.svg) no-repeat;
+  background: url("../img/icons/Play.svg") no-repeat;
   width: 24px;
   height: 24px;
 }
@@ -425,15 +424,13 @@ html, body {
 
 
 .main__service-background {
-  background: url("/img/service1.jpg") left 0 / 50% 502px no-repeat, url("/img/service2.jpg") right 0 / 50% 502px no-repeat;
-  width: 100%;
-  height: 502px;
+  background: url("../img/service1.jpg") left 0 / 50% 502px no-repeat, url("../img/service2.jpg") right 0 / 50% 502px no-repeat;
 }
 
 .main__service-block {
   background-color: #FF6433;
   height: 502px;
-  width: 729px;
+  max-width: 729px;
 }
 
 .main__service-title {
@@ -572,6 +569,7 @@ html, body {
   font-weight: 600;
   font-size: 16px;
   line-height: 28px;
+  color: #232536;
 }
 
 /* ------------------------------------------- */
@@ -711,10 +709,10 @@ html, body {
 }
 
 .main__input-form {
+  background-color: #F2F2F2;
   font-weight: 600;
   font-size: 16px;
   line-height: 28px;
-  background-color: #F2F2F2;
   border-radius: 2px;
   display: block;
   padding: 23px 0 23px 40px;
@@ -882,3 +880,4 @@ html, body {
     transform: translate(0, 0);
   }
 }
+
