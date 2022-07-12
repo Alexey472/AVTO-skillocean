@@ -711,6 +711,9 @@ html, body {
 }
 
 .main__input-form {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
   background-color: #F2F2F2;
   border-radius: 2px;
   display: block;
