@@ -556,12 +556,18 @@ html, body {
 
 .main__blog-item:hover {
   background: linear-gradient(138.85deg, #FFFFFF -38.72%, #FFFFFF 153.95%);
+  transform: scale(1.01);
   box-shadow: 0px 28px 118px rgba(109, 108, 115, 0.4);
 }
 
 
 .main__blog-img {
   margin-bottom: 24px;
+  transition: 1s;
+}
+
+.main__blog-img:hover {
+  transform: scale(1.2);
 }
 
 .main__blog-date {
