@@ -535,7 +535,12 @@ html, body {
 }
 
 .main__blog-link {
-  padding-right: 30px;
+  margin-right: 30px;
+  transition: all .3s;
+}
+
+.main__blog-link:hover {
+  color: #5CBA99;
 }
 
 .main__blog-grid {
