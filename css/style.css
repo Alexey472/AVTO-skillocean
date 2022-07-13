@@ -181,6 +181,7 @@ html, body {
 }
 
 
+
 .header__box-info {
   display: flex;
   align-items: center;
@@ -619,6 +620,50 @@ html, body {
   padding: 72px;
   margin: 0 48px;
 }
+
+.slick-prev, .slick-next {
+  line-height: 2;
+  opacity: 1;
+  border-radius: 50%;
+  text-align: center;
+  right: 190px;
+  top: 500px;
+}
+
+.slick-next {
+  right: 90px;
+  top: 500px;
+}
+
+.slick-prev::before, .slick-next::before {
+  content: "\27F5";
+  color: #1E1B1B;
+  background-color: #fff;
+  font-family: initial;
+  padding: 10px;
+  font-size: 38px;
+  opacity: 1;
+  border-radius: 50%;
+  transition: all .3s;
+}
+
+.slick-prev:hover::before, .slick-next:hover::before {
+  background-color: #1E1B1B;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #FFF;
+}
+
+.slick-next::before {
+  content: "\27F6";
+}
+
+.slick-dots li button {
+  border: 2px solid #939191;
+  padding: 0;
+  height: 0;
+  background-color: #939191;
+}
+
 
 .main__coments-slide:last-child {
   margin-right: 0px;
