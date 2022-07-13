@@ -738,6 +738,7 @@ html, body {
   display: block;
   padding: 23px 0 23px 40px;
   margin-bottom: 4px;
+  resize: none;
 }
 
 .main__input-contact {
