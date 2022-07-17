@@ -1298,14 +1298,8 @@ html, body {
     bottom: -40px;
   }
 
-  .slick-prev {
-    left: 10px;
-    top: 375px;
-  }
-
-  .slick-next {
-    right: 50px;
-    top: 375px;
+  .slick-prev::before, .slick-next::before {
+    display: none;
   }
 
   .main__faq {
