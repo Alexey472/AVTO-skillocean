@@ -594,6 +594,7 @@ html, body {
 .main__blog-img {
   margin-bottom: 24px;
   transition: 1s;
+  width: 100%;
 }
 
 .main__blog-img:hover {
@@ -1381,6 +1382,10 @@ html, body {
     flex-direction: column;
   }
 
+  .main__input-forms {
+    width: 100%;
+  }
+
   .main__input-form {
     padding: 23px 40px;
     width: 100%;
@@ -1393,6 +1398,7 @@ html, body {
   }
 
   .main__input-contacts {
+    padding: 0;
     text-align: center;
   }
 
