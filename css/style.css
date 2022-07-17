@@ -655,13 +655,13 @@ html, body {
   opacity: 1;
   border-radius: 50%;
   text-align: center;
-  right: 190px;
-  top: 500px;
+  right: 92%;
+  top: 108%;
 }
 
 .slick-next {
-  right: 90px;
-  top: 500px;
+  right: 10%;
+  top: 109%;
 }
 
 .slick-prev::before, .slick-next::before {
@@ -796,7 +796,8 @@ html, body {
 
 .main__input-about {
   display: flex;
-  justify-content: space-between;
+  flex: 50%;
+  justify-content: center;
   margin-bottom: 64px;
 }
 
@@ -810,7 +811,11 @@ html, body {
   padding: 23px 40px;
   margin-bottom: 4px;
   resize: none;
-  width: 687px;
+  width: 100%;
+}
+
+.main__input-forms {
+  width: 50%;
 }
 
 .main__input-btn {
@@ -820,6 +825,10 @@ html, body {
 
 .main__input-contact {
   margin-bottom: 32px;
+}
+
+.main__input-contacts {
+  padding-left: 139px;
 }
 
 .main__input-subtitle {
@@ -973,6 +982,43 @@ html, body {
   100% {
     opacity: 1;
     transform: translate(0, 0);
+  }
+}
+
+@media (max-width: 1410px) {
+
+  .main__about-title {
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 69px;
+    letter-spacing: -0.03em;
+    margin-right: 20px;
+    margin-bottom: 32px;
+  }
+
+
+  .main__time-btn {
+    left: 36%;
+  }
+
+  .main__rating-btn {
+    left: 63%;
+  }
+
+  .main__brands-grid {
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 0;
+  }
+
+  .main__brands-element:last-child {
+    display: none;
+  }
+
+  .main__blog-grid {
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr;
+    gap: 0;
   }
 }
 
@@ -1643,4 +1689,7 @@ html, body {
   .button {
     padding: 16px 21vw;
   }
+
+
+
 }
