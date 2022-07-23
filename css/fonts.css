@@ -20,9 +20,9 @@
 
 @font-face {
   font-family: Manrope;
-  src: url("../fonts/Manrope-SemiBold.woff2") format('woff2'),
-    url("../fonts/Manrope-SemiBold.woff") format('woff'),
-    url("../fonts/Manrope-SemiBold.eot") format('eot');
+  src: url("../fonts/Manrope-Semibold.woff2") format('woff2'),
+    url("../fonts/Manrope-Semibold.woff") format('woff'),
+    url("../fonts/Manrope-Semibold.eot") format('eot');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
